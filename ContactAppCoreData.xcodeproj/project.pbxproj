@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		1F73DA6D25568293001CC1CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F73DA6C25568293001CC1CD /* AppDelegate.swift */; };
 		1F73DA6F25568293001CC1CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F73DA6E25568293001CC1CD /* SceneDelegate.swift */; };
-		1F73DA7125568293001CC1CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F73DA7025568293001CC1CD /* ViewController.swift */; };
-		1F73DA7425568293001CC1CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F73DA7225568293001CC1CD /* Main.storyboard */; };
 		1F73DA7725568294001CC1CD /* ContactAppCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F73DA7525568293001CC1CD /* ContactAppCoreData.xcdatamodeld */; };
 		1F73DA7925568295001CC1CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F73DA7825568295001CC1CD /* Assets.xcassets */; };
 		1F73DA7C25568295001CC1CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F73DA7A25568295001CC1CD /* LaunchScreen.storyboard */; };
 		1F73DA8725568295001CC1CD /* ContactAppCoreDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F73DA8625568295001CC1CD /* ContactAppCoreDataTests.swift */; };
 		1F73DA9225568295001CC1CD /* ContactAppCoreDataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F73DA9125568295001CC1CD /* ContactAppCoreDataUITests.swift */; };
+		1F73DAAC255684F2001CC1CD /* ContactsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F73DAAB255684F2001CC1CD /* ContactsViewController.storyboard */; };
+		1F73DAB925568547001CC1CD /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F73DAB825568547001CC1CD /* ContactsViewController.swift */; };
+		1F73DAC2255688EE001CC1CD /* AppUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F73DAC1255688EE001CC1CD /* AppUIButton.swift */; };
+		1F73DAC725568915001CC1CD /* FugazOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F73DAC625568915001CC1CD /* FugazOne-Regular.ttf */; };
+		1F73DACC2556892F001CC1CD /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F73DACB2556892F001CC1CD /* Theme.swift */; };
+		1F73DAD125568950001CC1CD /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F73DAD025568950001CC1CD /* Colors.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +43,6 @@
 		1F73DA6925568293001CC1CD /* ContactAppCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactAppCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F73DA6C25568293001CC1CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F73DA6E25568293001CC1CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1F73DA7025568293001CC1CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1F73DA7325568293001CC1CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F73DA7625568293001CC1CD /* ContactAppCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ContactAppCoreData.xcdatamodel; sourceTree = "<group>"; };
 		1F73DA7825568295001CC1CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F73DA7B25568295001CC1CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +53,12 @@
 		1F73DA8D25568295001CC1CD /* ContactAppCoreDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactAppCoreDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F73DA9125568295001CC1CD /* ContactAppCoreDataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactAppCoreDataUITests.swift; sourceTree = "<group>"; };
 		1F73DA9325568295001CC1CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F73DAAB255684F2001CC1CD /* ContactsViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ContactsViewController.storyboard; sourceTree = "<group>"; };
+		1F73DAB825568547001CC1CD /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		1F73DAC1255688EE001CC1CD /* AppUIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppUIButton.swift; sourceTree = "<group>"; };
+		1F73DAC625568915001CC1CD /* FugazOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FugazOne-Regular.ttf"; sourceTree = "<group>"; };
+		1F73DACB2556892F001CC1CD /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		1F73DAD025568950001CC1CD /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +109,11 @@
 		1F73DA6B25568293001CC1CD /* ContactAppCoreData */ = {
 			isa = PBXGroup;
 			children = (
+				1F73DAA825568473001CC1CD /* Views */,
+				1F73DAA72556846C001CC1CD /* Model */,
+				1F73DAA625568463001CC1CD /* Resources */,
 				1F73DA6C25568293001CC1CD /* AppDelegate.swift */,
 				1F73DA6E25568293001CC1CD /* SceneDelegate.swift */,
-				1F73DA7025568293001CC1CD /* ViewController.swift */,
-				1F73DA7225568293001CC1CD /* Main.storyboard */,
 				1F73DA7825568295001CC1CD /* Assets.xcassets */,
 				1F73DA7A25568295001CC1CD /* LaunchScreen.storyboard */,
 				1F73DA7D25568295001CC1CD /* Info.plist */,
@@ -129,6 +138,57 @@
 				1F73DA9325568295001CC1CD /* Info.plist */,
 			);
 			path = ContactAppCoreDataUITests;
+			sourceTree = "<group>";
+		};
+		1F73DAA625568463001CC1CD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1F73DACB2556892F001CC1CD /* Theme.swift */,
+				1F73DAC625568915001CC1CD /* FugazOne-Regular.ttf */,
+				1F73DAD025568950001CC1CD /* Colors.xcassets */,
+				1F73DAC0255688CF001CC1CD /* CustomControls */,
+				1F73DAA9255684A1001CC1CD /* Extensions */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1F73DAA72556846C001CC1CD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1F73DAA825568473001CC1CD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1F73DAAA255684C5001CC1CD /* ContactsViewController */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1F73DAA9255684A1001CC1CD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1F73DAAA255684C5001CC1CD /* ContactsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1F73DAAB255684F2001CC1CD /* ContactsViewController.storyboard */,
+				1F73DAB825568547001CC1CD /* ContactsViewController.swift */,
+			);
+			path = ContactsViewController;
+			sourceTree = "<group>";
+		};
+		1F73DAC0255688CF001CC1CD /* CustomControls */ = {
+			isa = PBXGroup;
+			children = (
+				1F73DAC1255688EE001CC1CD /* AppUIButton.swift */,
+			);
+			path = CustomControls;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,9 +294,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F73DAD125568950001CC1CD /* Colors.xcassets in Resources */,
 				1F73DA7C25568295001CC1CD /* LaunchScreen.storyboard in Resources */,
+				1F73DAAC255684F2001CC1CD /* ContactsViewController.storyboard in Resources */,
+				1F73DAC725568915001CC1CD /* FugazOne-Regular.ttf in Resources */,
 				1F73DA7925568295001CC1CD /* Assets.xcassets in Resources */,
-				1F73DA7425568293001CC1CD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,8 +323,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F73DA7125568293001CC1CD /* ViewController.swift in Sources */,
 				1F73DA6D25568293001CC1CD /* AppDelegate.swift in Sources */,
+				1F73DAC2255688EE001CC1CD /* AppUIButton.swift in Sources */,
+				1F73DAB925568547001CC1CD /* ContactsViewController.swift in Sources */,
+				1F73DACC2556892F001CC1CD /* Theme.swift in Sources */,
 				1F73DA6F25568293001CC1CD /* SceneDelegate.swift in Sources */,
 				1F73DA7725568294001CC1CD /* ContactAppCoreData.xcdatamodeld in Sources */,
 			);
@@ -300,14 +364,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1F73DA7225568293001CC1CD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1F73DA7325568293001CC1CD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1F73DA7A25568295001CC1CD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

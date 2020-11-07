@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dcG-pz-p6s">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Contacts View Controller-->
+        <scene sceneID="V77-y3-pik">
+            <objects>
+                <viewController storyboardIdentifier="ContactsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="zUP-Uw-BBL" customClass="ContactsViewController" customModule="ContactAppCoreData" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1fw-eu-t4u">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Xjq-sR-Vbj">
+                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aYX-NJ-S2J" customClass="AppUIButton" customModule="ContactAppCoreData" customModuleProvider="target">
+                                <rect key="frame" x="343" y="791" width="56" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="kAU-Zr-aOK"/>
+                                    <constraint firstAttribute="width" constant="56" id="pun-Fz-Aoc"/>
+                                </constraints>
+                                <state key="normal" image="addButton"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ZlR-Dl-HfU"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ZlR-Dl-HfU" firstAttribute="trailing" secondItem="aYX-NJ-S2J" secondAttribute="trailing" constant="15" id="25b-Ea-Szh"/>
+                            <constraint firstItem="Xjq-sR-Vbj" firstAttribute="leading" secondItem="ZlR-Dl-HfU" secondAttribute="leading" id="IPt-le-MhA"/>
+                            <constraint firstItem="Xjq-sR-Vbj" firstAttribute="top" secondItem="ZlR-Dl-HfU" secondAttribute="top" id="OT5-Ju-n2I"/>
+                            <constraint firstItem="Xjq-sR-Vbj" firstAttribute="trailing" secondItem="ZlR-Dl-HfU" secondAttribute="trailing" id="VKX-ku-ACP"/>
+                            <constraint firstItem="ZlR-Dl-HfU" firstAttribute="bottom" secondItem="aYX-NJ-S2J" secondAttribute="bottom" constant="15" id="ZmI-Jj-Jmq"/>
+                            <constraint firstItem="ZlR-Dl-HfU" firstAttribute="bottom" secondItem="Xjq-sR-Vbj" secondAttribute="bottom" constant="-34" id="oog-sC-8hn"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="6Hf-7M-d9c"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OP0-Zf-5ci" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="750.72463768115949" y="79.6875"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="zmY-iz-JtE">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dcG-pz-p6s" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="fPC-mJ-VBi">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="zUP-Uw-BBL" kind="relationship" relationship="rootViewController" id="PzY-OT-odt"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QwE-QT-ATK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-159.42028985507247" y="79.6875"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="addButton" width="48" height="48"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
